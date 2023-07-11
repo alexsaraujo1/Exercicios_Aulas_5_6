@@ -25,6 +25,10 @@ print(nome_lista)
 
 # 4.Faça um programa que recebe uma string e retorna ela ao contrário. Exemplo: Recebe "teste" e retorna "etset".
 
+nome = input("Digite uma palavra:")
+nome_novo = nome[::-1]
+print(nome_novo)
+
 # 5. Escreva um programa que duas strings e gere uma terceira na qual os caracteres da segunda foram retirados da primeira.
 
 # 6. Escreva um programa que receba um texto e uma palavra, então verifique se a palavra está no texto..
