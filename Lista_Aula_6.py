@@ -2,22 +2,24 @@
 
 # 1.Faça um programa que pede para o usuário digitar uma palavra e imprima cada letra em uma linha.
 
+nome = input("Digite uma palavra:")
+nome_lista = list(nome)
+print(nome_lista)
 
-palavras = input("Digite uma palavra:")
-palavras.splitlines()
-Ver depois o final
+________2 forma:
 
-# nome = 'Helena'
-# nome_lista = list(nome)
-# print(nome_lista)
+nome = input("Digite uma palavra:")
 
+print(nome.split("\n"))
+
+OBS.: Não estou conseguindo separar as letras
 
 # 2.Faça um programa que pede para o usuário digitar uma palavra e cria uma nova string igual, porém com espaço entre cada letra, depois imprima a nova string: Exemplo: se o usuário digitar "python" o programa deve imprimir "p y t h o n "
-palavras = input("Digite uma palavra:")
-palavra_nova:list(palavras)
+nome = input("Digite uma palavra:")
+nome_lista = list(nome)
+print(nome_lista)
 
-palavras.splitlines()
-print(palavras)
+
 
 # 3.Faça um programa que receba uma string e retorne uma nova string substituindo: 'a' por '4' 'e' por '3' 'I' por '1' 't' por '7'
 
