@@ -105,6 +105,14 @@ Falta as idades
 # Armazene esses números em uma lista e ao final informe quantos números foram digitados, ignorando o 0,
 # o valor máximo e o valor mínimo.
 
+numeros = int(input("Informe um numero"))
+
+print(min(numeros))
+print(max(numeros))
+print(sum(numeros))
+
+OBS.: Faltou terminar.
+
 # 9.Faça um script que informe o fatorial de um número.
 # Utilize obrigatoriamente o comando for
 
